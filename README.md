@@ -10,7 +10,7 @@ The main target of this notebook is to display the real location of fires of the
 
 
 
-More information at: (https://queimadas.dgi.inpe.br/queimadas/dados-abertos)  (only in portuguese language :brazil: / :portugal:)
+More information at: (https://queimadas.dgi.inpe.br/queimadas/dados-abertos/)  (only in portuguese language :brazil: / :portugal:)
 
 
 ## Used Libs:
