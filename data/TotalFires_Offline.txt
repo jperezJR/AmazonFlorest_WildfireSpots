@@ -1,0 +1,16 @@
+[
+  "https://queimadas.dgi.inpe.br/queimadas/dados-abertos/api/focos/count",
+  {
+    "Brasil": 2855,
+    "Uruguay": 14,
+    "Peru": 9,
+    "Chile": 178,
+    "Colombia": 42,
+    "Paraguay": 391,
+    "Argentina": 372,
+    "Bolivia": 253,
+    "Venezuela": 250,
+    "Ecuador": 5
+  },
+  "Thu, 13 May 2021 19:31:44 GMT"
+]
