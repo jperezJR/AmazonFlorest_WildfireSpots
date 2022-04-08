@@ -1,7 +1,13 @@
-# Project Wildfires in Amazon florest - 
+# Project Wildfires in Amazon florest  
 
+<p align="center">
+ <img src=".\pictures\cnn-brazil-amazon-fires-2020.jpg" width="400" />
+</p>
+ 
 
 The main target of this notebook is to display the real location of fires of the last 24 hours in the Brazilian Amazon rainforest using satellite data from the Brazilian research space agency (INPE) API.
+
+
 
 
 More information at: (https://queimadas.dgi.inpe.br/queimadas/dados-abertos)  (only in portuguese language :brazil: / :portugal:)
@@ -25,19 +31,19 @@ It is using official data from INPE, but for test proposes and to avoid several 
 
 Only wildfires from Brazil are displayed now. But it is possible to show different South American countries from the list below:
 
-| Countries 	|
-|:---------:	|
-| Brasil    	|
-| Bolivia   	|
-| Venezuela 	|
-| Paraguay  	|
-| Argentina 	|
-| Colombia  	|
-| Chile     	|
-| Peru      	|
-| Uruguay   	|
-| Ecuador   	|
-| Guyana    	|
+<div align="center">
+
+| **Countries** 	         |                    	|
+|-------------------------|---------------------|
+| Brasil :brazil:        	| Chile :chile:   	   |
+| Bolivia :bolivia:  	    | Peru :peru:  	      |
+| Venezuela :venezuela:   | Uruguay :uruguay:  	|
+| Paraguay :paraguay:  	  | Ecuador :ecuador:  	|
+| Argentina :argentina:   | Guyana :guyana:    	|
+| Colombia :colombia:     |                    	|
+
+</div>
+
 
  
 First, a map with marks is generated pointing to where are the coordinates of the fire. Clicking on the marks will show you some more information as
@@ -53,19 +59,20 @@ First, a map with marks is generated pointing to where are the coordinates of th
 
 Available satellite's data:
 
-| Satellite  	|
-|-----------	|
-| GOES-16   	|
-| NPP-375   	|
-| NOAA-20   	|
-| AQUA_M-T  	|
-| TERRA_M-T 	|
-| METOP-B   	|
-| NOAA-18D  	|
-| AQUA_M-M  	|
-| MSG-03    	|
-| NOAA-19   	|
-| TERRA_M-M 	|
+<div align="center">
+
+| Satellites :artificial_satellite:	|            	|
+|------------	|------------	|
+| GOES-16    	| NOAA-18D   	|
+| NPP-375    	| AQUA_M-M   	|
+| NOAA-20    	| MSG-03     	|
+| AQUA_M-T   	| NOAA-19    	|
+| TERRA_M-T  	| TERRA_M-M  	|
+| METOP-B    	|            	|
+
+</div>
+ 
+ 
 
 
 In the end, a heatmap can be visualized. It gives us a better understanding of where are the highest fires concentrations.
